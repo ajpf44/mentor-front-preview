@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8081,
   },
+  base: "/mentor-front-preview ",
   plugins: [
     react(),
     mode === 'development' &&
